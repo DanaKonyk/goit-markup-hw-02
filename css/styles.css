@@ -1,0 +1,209 @@
+:root {
+    --first-color: #434455;
+    --second-color: #FFFFFF;
+    --font-weight: 500;
+    --letter-spacing: 0.02em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: #2E2F42;
+    font-style: normal;
+
+}
+
+/* header */
+.navigation {}
+
+.page-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.page-logo span {
+    color: #4D5AE5;
+}
+
+.navigation-list {}
+
+.navigation-item {}
+
+.navigation-link {
+    font-weight: var(--font-weight);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing);
+    text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404BBF;
+}
+
+.address {}
+
+.address-list {}
+
+.address-item {}
+
+.address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing);
+    color: var(--first-color);
+    text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+/*  hero section */
+.hero {}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    color: var(--second-color)
+}
+
+.hero-btn {
+    font-weight: var(--font-weight);
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--second-color);
+}
+
+/* section-advantages */
+.advantages {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {
+    font-weight: var(--font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+}
+
+.advantages-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: var(--letter-spacing);
+    color: var(--first-color);
+}
+
+/* products  */
+.products {}
+
+.products-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    text-transform: capitalize;
+}
+
+.products-list {}
+
+.products-item {}
+
+/* team */
+.team {}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-subtitle {
+    font-weight: var(--font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    color: var(--first-color);
+}
+
+/* footer */
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing);
+    color: #F4F4FD;
+}
+
+/* portfolio */
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--second-color)
+}
+
+/* options */
+.option {}
+
+.option-item {}
+
+.option-link {
+    text-decoration: none;
+}
+
+.option-title {
+    font-weight: var(--font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+}
+
+.option-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing);
+    color: var(--first-color);
+}
