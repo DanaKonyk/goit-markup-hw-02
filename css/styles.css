@@ -129,6 +129,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--first-color);
 }
 
 .advantages-text {
@@ -184,6 +185,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--first-color);
 }
 
 .team-text {
