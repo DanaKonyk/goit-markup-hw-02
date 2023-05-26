@@ -3,7 +3,6 @@
     --first-color: #2e2f42;
     --second-color: #FFFFFF;
     --third-color: #434455;
-    --background-color: #2E2F42;
     --background-color-btn: #F4F4FD;
 }
 
@@ -85,7 +84,7 @@ body {
 
 /*  hero section */
 .hero {
-    background: var(--background-color);
+    background: var(--first-color);
 }
 
 .hero-title {
@@ -170,6 +169,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--first-color);
+    ;
 }
 
 .team-list {}
@@ -197,7 +197,7 @@ body {
 
 /* footer */
 .footer {
-    background-color: var(--background-color);
+    background-color: var(--first-color);
 }
 
 .page-logo .footer-logo-studio {
@@ -245,7 +245,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--background-color);
+    color: var(--first-color);
 }
 
 .option-text {
@@ -253,4 +253,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--third-color);
 }
