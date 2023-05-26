@@ -2,6 +2,7 @@
     --title-color: #4D5AE5;
     --first-color: #2e2f42;
     --second-color: #FFFFFF;
+    --third-color: #434455;
     --background-color: #2E2F42;
     --background-color-btn: #F4F4FD;
 }
@@ -60,7 +61,9 @@ body {
     color: #404BBF;
 }
 
-.address {}
+.address {
+    font-style: normal
+}
 
 .address-list {}
 
@@ -72,7 +75,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    ;
+    color: var(--third-color);
 }
 
 .address-link:hover,
@@ -108,11 +111,15 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* section-advantages */
 .advantages {}
+
+.advantages-title {
+    color: var(--first-color);
+}
 
 .advantages-list {}
 
@@ -143,6 +150,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--first-color);
 }
 
 .products-list {}
@@ -161,6 +169,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--first-color);
 }
 
 .team-list {}
