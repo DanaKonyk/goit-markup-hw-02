@@ -30,7 +30,7 @@ body {
 
 }
 
-.page-logo span {
+.page-logo .header-logo-studio {
     color: var(--first-color);
 }
 
@@ -198,6 +198,10 @@ body {
 /* footer */
 .footer {
     background-color: var(--background-color);
+}
+
+.page-logo .footer-logo-studio {
+    color: #f4f4fd;
 }
 
 .footer-text {
